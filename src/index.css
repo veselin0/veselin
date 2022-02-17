@@ -7,29 +7,39 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-header {
+/* header {
 	font-size: 24px;
 	font-weight: bold;
 	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
-}
+} */
 
 .container {
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .about-container {
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .home-link {
-    flex: 1;
 }
 
 .about-main {
-    flex: 4;
-    margin-right: 40px;
+	width: 250px;
+	margin: 40px;
+}
+
+.portfolio-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.portfolio-main {
 }
