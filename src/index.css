@@ -27,9 +27,6 @@ body {
 	flex-wrap: wrap;
 }
 
-.home-link {
-}
-
 .about-main {
 	width: 250px;
 	margin: 40px;
@@ -39,7 +36,4 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-}
-
-.portfolio-main {
 }
